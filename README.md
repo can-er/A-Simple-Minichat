@@ -1,4 +1,4 @@
-# A Simple Minichat
+# A Simple responsive Minichat
  
 ![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
 --------------------------------------------------------------
@@ -19,11 +19,11 @@
 ![](http://minichat.ddns.net/img_md/Minichat_screen/Incomming_chat_room.JPG)  
 --------------------------------------------------------------
 ### Mobile *connection*:
-![](http://minichat.ddns.net/img_md/Minichat_screen/mobile_connection.jpg = 0.25x)
+<img src="http://minichat.ddns.net/img_md/Minichat_screen/mobile_connection.jpg" width="auto" height="800" />
 --------------------------------------------------------------
 ### Mobile *register*:
-![](http://minichat.ddns.net/img_md/Minichat_screen/mobile_register.jpg = 0.25x )
+<img src="http://minichat.ddns.net/img_md/Minichat_screen/mobile_register.jpg" width="auto" height="800" />
 --------------------------------------------------------------
 ### Mobile *nav_bar*:
-<img src="http://minichat.ddns.net/img_md/Minichat_screen/mobile_nav_bar.jpg" width="auto" height="400" />
+<img src="http://minichat.ddns.net/img_md/Minichat_screen/mobile_nav_bar.jpg" width="auto" height="800" />
 --------------------------------------------------------------
