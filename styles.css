@@ -1,0 +1,228 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  size: border-box;
+}
+html {
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 8vh;
+  background: linear-gradient(to left, #d0cde1, #3f3d56);
+  padding-left: 20px;
+  padding-right: 20px;
+  width: auto;
+}
+.logo {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+a {
+  text-decoration: none;
+  color: #2f2e41;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.img_social {
+  display: flex;
+  position: absolute;
+  height: 60%;
+  width: auto;
+  bottom: 5px;
+  right: 20px;
+  pointer-events: none;
+}
+
+.description {
+  margin-top: 20px;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .img_social {
+    height: 40%;
+  }
+  ul {
+    width: 40%;
+  }
+}
+.register,
+.Connection {
+  display: flex;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  margin-left: 20px;
+}
+form {
+  width: 30%;
+  background: linear-gradient(to right, #3f3d56, #fbb957);
+  border: 2px solid #d0cde1;
+  border-radius: 20px;
+  text-align: center;
+  height: 60vh;
+}
+h1 {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+label {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#Login {
+  width: 60%;
+  padding: 8px;
+  margin-top: 60px;
+  background-color: #d0cde1;
+}
+#Login:hover {
+  background-color: #494763;
+}
+.mobnav div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+}
+.mobnav {
+  display: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  ul {
+    /*position: absolute;*/
+    position: fixed;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background: linear-gradient(
+      to bottom,
+      rgb(122, 101, 214),
+      rgb(230, 106, 213)
+    );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    z-index: 2;
+  }
+  .img_social {
+    display: none;
+    pointer-events: none;
+  }
+  .mobnav {
+    display: block;
+  }
+  form {
+    position: relative;
+    width: 100%;
+    border-radius: 0px;
+    height: 100%;
+  }
+  .register,
+  .Connection {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin-left: 0px;
+    height: 70%;
+    z-index: 1;
+  }
+  a:hover {
+    color: white;
+  }
+  .navactive {
+    transform: translateX(0%);
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .register,
+  .Connection {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin-left: 0px;
+    height: 70%;
+  }
+  form {
+    position: relative;
+    border-radius: 0px;
+    height: 100%;
+  }
+}
+@media screen and (max-height: 590px) {
+  form {
+    position: relative;
+    border-radius: 0px;
+    height: 110%;
+  }
+  html {
+    overflow-y: visible;
+    overscroll-behavior: auto;
+  }
+}
+@media screen and (max-height: 535px) {
+  form {
+    height: 120%;
+  }
+}
+@media screen and (max-height: 490px) {
+  form {
+    height: 150%;
+  }
+}
+@media screen and (max-height: 393px) {
+  form {
+    height: 170%;
+  }
+}
+@media screen and (max-height: 346px) {
+  form {
+    height: 190%;
+  }
+}
+@media screen and (max-height: 308px) {
+  form {
+    height: 220%;
+  }
+}
+@media screen and (max-height: 270px) {
+  form {
+    height: 260%;
+  }
+}
+@media (orientation: landscape) and (max-height: 590px) {
+  form {
+    height: 420px;
+    margin-top: 40px;
+  }
+  .img_social {
+    bottom: -110px;
+    height: 70%;
+  }
+}
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Minichat</title>
+  </head>
+  <nav>
+    <h4 class="logo">Minichat</h4>
+    <ul class="navlinks">
+      <li>
+        <a href="index.html"><b>Connexion</b></a>
+      </li>
+      <li>
+        <a href="inscription.html"><b>Inscription</b></a>
+      </li>
+    </ul>
+    <div class="mobnav">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+  <body>
+    <div class="description">
+      <p>
+        <b
+          >Avec Minichat, partagez et restez en contact avec votre entourage.</b
+        >
+      </p>
+    </div>
+    <div class="Connection">
+      <form action="verify.php" method="POST">
+        <h1 classe="Connection">Connexion</h1>
+        <label for="Pseudo"><b>Nom d'utilisateur</b></label>
+        <input
+          type="text"
+          id="Pseudo"
+          placeholder="Entrer le nom d'utilisateur"
+          required
+          name="pseud"
+        />
+        <label for="Password"><b>Mot de passe</b></label>
+        <input
+          type="Password"
+          id="Password"
+          placeholder="Entrer le mot de passe"
+          required
+          name="pass"
+        />
+        <p><input id="Login" type="submit" value="Login" /></p>
+      </form>
+    </div>
+    <img src="img/register1.svg" class="img_social" alt="register image" />
+    <script src="co.js"></script>
+  </body>
+</html>
+

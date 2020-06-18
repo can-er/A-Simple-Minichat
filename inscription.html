@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Minichat</title>
+  </head>
+  <nav>
+    <h4 class="logo">Minichat</h4>
+    <ul class="navlinks">
+      <li>
+        <a href="index.html"><b>Connexion</b></a>
+      </li>
+      <li>
+        <a href="inscription.html"><b>Inscription</b></a>
+      </li>
+    </ul>
+    <div class="mobnav">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+  <body>
+    <div class="description">
+      <p>
+        <b
+          >Avec Minichat, partagez et restez en contact avec votre entourage.</b
+        >
+      </p>
+    </div>
+    <div class="register">
+      <form class="inscription" action="insert.php" method="post">
+        <h1 classe="Connection">Inscription</h1>
+        <label for="Email"><b>Email</b></label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Entrer votre email"
+          required
+          name="email"
+        />
+        <label for="Pseudo"><b>Nom d'utilisateur</b></label>
+        <input
+          type="text"
+          id="Pseudo"
+          placeholder="Entrer le nom d'utilisateur"
+          required
+          name="pseudo"
+        />
+        <label for="Password"><b>Mot de passe</b></label>
+        <input
+          type="Password"
+          id="Password"
+          placeholder="Entrer le mot de passe"
+          required
+          name="password"
+        />
+        <p><input id="Login" type="submit" value="Inscription" /></p>
+      </form>
+    </div>
+    <img src="img/social2.svg" class="img_social" alt="social image" />
+    <script src="co.js"></script>
+  </body>
+</html>
+
