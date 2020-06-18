@@ -25,6 +25,5 @@
 ![](http://minichat.ddns.net/img_md/Minichat_screen/mobile_register.jpg = 0.25x )
 --------------------------------------------------------------
 ### Mobile *nav_bar*:
-![](http://minichat.ddns.net/img_md/Minichat_screen/mobile_nav_bar.jpg = 0.25x)
 <img src="http://minichat.ddns.net/img_md/Minichat_screen/mobile_nav_bar.jpg" width="200" height="200" />
 --------------------------------------------------------------
