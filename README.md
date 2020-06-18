@@ -18,8 +18,12 @@
 ### Incoming *chat room*:
 ![](http://minichat.ddns.net/img_md/Minichat_screen/Incomming_chat_room.JPG)  
 --------------------------------------------------------------
-[//]: <> (![](http://minichat.ddns.net/img_md/Minichat_screen/mobile_connection.jpg))
-[//]: <> (![](http://minichat.ddns.net/img_md/Minichat_screen/mobile_register.jpg))
-[//]: <> (![](http://minichat.ddns.net/img_md/Minichat_screen/mobile_no_responsive_chat_room.jpg))
-[//]: <> (![](http://minichat.ddns.net/img_md/Minichat_screen/mobile_nav_bar.jpg))
+### Mobile *connection*:
+![](http://minichat.ddns.net/img_md/Minichat_screen/mobile_connection.jpg = 0.25x)
+--------------------------------------------------------------
+### Mobile *register*:
+![](http://minichat.ddns.net/img_md/Minichat_screen/mobile_register.jpg = 0.25x )
+--------------------------------------------------------------
+### Mobile *nav_bar*:
+![](http://minichat.ddns.net/img_md/Minichat_screen/mobile_nav_bar.jpg = 0.25x)
 --------------------------------------------------------------
