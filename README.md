@@ -7,11 +7,11 @@
 --------------------------------------------------------------
 > This program was developed to deepen our knowledge of HTML/CSS/PHP. The platform allows you to create an account to connect to a database. It is then possible to communicate in a public chat room.
 
-![](desktop_connection.JPG)
-![](desktop_register.JPG)
-![](desktop_chat_room.JPG)
-![](mobile_connection.jpg)
-![](mobile_register.jpg)
-![](mobile_no_responsive_chat_room.jpg)
-![](mobile_nav_bar.jpg)
-![](Incomming_chat_room.JPG)             
+![](http://minichat.ddns.net/img_md/Minichat_screen/desktop_connection.JPG)
+![](http://minichat.ddns.net/img_md/Minichat_screen/desktop_register.JPG)
+![](http://minichat.ddns.net/img_md/Minichat_screen/desktop_chat_room.JPG)
+![](http://minichat.ddns.net/img_md/Minichat_screen/mobile_connection.jpg)
+![](http://minichat.ddns.net/img_md/Minichat_screen/mobile_register.jpg)
+![](http://minichat.ddns.net/img_md/Minichat_screen/mobile_no_responsive_chat_room.jpg)
+![](http://minichat.ddns.net/img_md/Minichat_screen/mobile_nav_bar.jpg)
+![](http://minichat.ddns.net/img_md/Minichat_screen/Incomming_chat_room.JPG)             
