@@ -20,10 +20,10 @@
 --------------------------------------------------------------
 ### Mobile *connection*:
 <img src="http://minichat.ddns.net/img_md/Minichat_screen/mobile_connection.jpg" width="auto" height="800" />
---------------------------------------------------------------
+=============
 ### Mobile *register*:
 <img src="http://minichat.ddns.net/img_md/Minichat_screen/mobile_register.jpg" width="auto" height="800" />
---------------------------------------------------------------
+=============
 ### Mobile *nav_bar*:
 <img src="http://minichat.ddns.net/img_md/Minichat_screen/mobile_nav_bar.jpg" width="auto" height="800" />
---------------------------------------------------------------
+=============
